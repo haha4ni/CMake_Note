@@ -24,7 +24,7 @@ list(REMOVE_ITEM SRC_LIST exclude.cpp)
 
 #include目錄
 include_directories("."
-		                "${CMAKE_SOURCE_DIR}/../OpenCV343/include")
+                    "${CMAKE_SOURCE_DIR}/../OpenCV343/include")
                     
 
 #把相同附檔名納入清單 (載入lib) (如有需要)
